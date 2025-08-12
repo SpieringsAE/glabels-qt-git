@@ -4,6 +4,7 @@ pkgbase = glabels-qt-git
 	pkgrel = 1
 	url = https://github.com/j-evins/glabels-qt
 	arch = x86_64
+	arch = aarch64
 	license = GPL-3.0-only
 	makedepends = qt6-tools
 	makedepends = git
