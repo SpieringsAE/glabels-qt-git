@@ -1,22 +1,22 @@
 # Maintainer: Mario Blättermann <mario.blaettermann@gmail.com>
 pkgname=glabels-qt-git
-pkgver=r564.2da9b2d
-pkgrel=2
+pkgver=r577.524e9cc
+pkgrel=1
 pkgdesc="Development version of the next major version of gLabels (4.0)."
 arch=('x86_64')
-url="https://github.com/jimevins/glabels-qt"
-license=('GPL3')
+url="https://github.com/j-evins/glabels-qt"
+license=('GPL-3.0-only')
 groups=()
-depends=('qt5-base' 'qt5-svg' 'qt5-translations')
-makedepends=('qt5-tools' 'git' 'cmake')
-optdepends=('zint')
+depends=('qt6-base' 'qt6-svg' 'hicolor-icon-theme' 'glibc' 'gcc-libs' 'zlib' 'qrencode')
+makedepends=('qt6-tools' 'git' 'cmake' 'clang' 'qt6-declarative')
+optdepends=()
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 replaces=()
 backup=()
 options=()
 install=
-source=('git+https://github.com/jimevins/glabels-qt.git')
+source=('git+https://github.com/j-evins/glabels-qt.git')
 noextract=()
 md5sums=('SKIP')
 
