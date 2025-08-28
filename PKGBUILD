@@ -1,4 +1,6 @@
 # Maintainer: Mario Blättermann <mario.blaettermann@gmail.com>
+# Maintainer: Maud Spierings <maud_spierings@hotmail.com>
+
 pkgname=glabels-qt-git
 pkgver=r582.de85d47
 pkgrel=1
